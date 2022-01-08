@@ -1,0 +1,46 @@
+{
+  "name": "bookzone",
+  "type": "module",
+  "version": "1.0.1",
+  "description": "E-commerce Full Stack MERN Development Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohitghosal/BookZone.git"
+  },
+  "keywords": [
+    "MERN",
+    "Stack",
+    "E-Commerce",
+    "MongoDB",
+    "React",
+    "Nodejs",
+    "Express",
+    "Hacktoberfest2021"
+  ],
+  "author": "Rohit ghosal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rohitghosal/BookZone/issues"
+  },
+  "homepage": "https://github.com/rohitghosal/BookZone#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "jsonwebtoken": "^8.5.1",
+    "mailgun-js": "^0.22.0",
+    "mongoose": "^5.10.7",
+    "multer": "^1.4.2",
+    "socket.io": "^4.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.4.1",
+    "eslint-plugin-react": "^7.27.1",
+    "nodemon": "^2.0.15"
+  }
+}
